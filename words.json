@@ -1,1 +1,23 @@
+[
+  {"vi":"xin chào","en":"hello","ex":"Xin chào, bạn khỏe không?"},
+  {"vi":"tạm biệt","en":"goodbye","ex":"Tạm biệt, hẹn gặp lại!"},
+  {"vi":"cảm ơn","en":"thank you","ex":"Cảm ơn vì đã giúp tôi."},
+  {"vi":"làm ơn","en":"please","ex":"Làm ơn nói chậm lại."},
+  {"vi":"xin lỗi","en":"sorry / excuse me","ex":"Xin lỗi vì đến muộn."},
+  {"vi":"vâng / dạ","en":"yes (polite)","ex":"Dạ, em hiểu."},
+  {"vi":"không","en":"no / not","ex":"Không, tôi không biết."},
+  {"vi":"tên","en":"name","ex":"Tên bạn là gì?"},
+  {"vi":"tôi","en":"I / me","ex":"Tôi là Landon."},
+  {"vi":"bạn","en":"you (informal)","ex":"Bạn đến từ đâu?"},
+  {"vi":"anh","en":"you (male, older)","ex":"Anh uống cà phê không?"},
+  {"vi":"chị","en":"you (female, older)","ex":"Chị ăn cơm chưa?"},
+  {"vi":"em","en":"younger person","ex":"Em tên gì?"},
+  {"vi":"chó","en":"dog","ex":"Con chó rất dễ thương."},
+  {"vi":"mèo","en":"cat","ex":"Con mèo đang ngủ."},
+  {"vi":"nước","en":"water / country","ex":"Cho tôi chai nước."},
+  {"vi":"cà phê","en":"coffee","ex":"Tôi uống cà phê sữa đá."},
+  {"vi":"trà","en":"tea","ex":"Bạn thích trà hay cà phê?"},
+  {"vi":"cơm","en":"rice / meal","ex":"Ăn cơm chưa?"},
+  {"vi":"bánh mì","en":"bread / sandwich","ex":"Tôi muốn một ổ bánh mì."}
+]
 
