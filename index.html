@@ -1,1 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Viet Pom Flashcards</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#0f1115" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Viet Pom Flashcards</h1>
+      <div class="controls">
+        <button id="prevBtn" aria-label="Previous">‹</button>
+        <button id="shuffleBtn" aria-label="Shuffle">Shuffle</button>
+        <button id="nextBtn" aria-label="Next">›</button>
+      </div>
+      <div id="progress"></div>
+    </header>
+
+    <main>
+      <div id="card" class="card" role="button" aria-label="Flip card" tabindex="0">
+        <div class="inner">
+          <div class="front face"><div class="overlay"><span class="vi"></span></div></div>
+          <div class="back face"><div class="overlay"><span class="en"></span><small class="ex"></small></div></div>
+        </div>
+      </div>
+      <p class="hint">Tap to flip • Swipe left/right for next/prev</p>
+    </main>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
 
